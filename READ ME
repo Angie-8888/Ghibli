@@ -1,0 +1,64 @@
+Studio Ghibli Film Analysis
+Overview
+This project explores financial trends, director influence, genre distribution, and quiz generation based on a dataset of Studio Ghibli films. It uses Python and libraries like Pandas and Matplotlib to uncover insights about film profitability, genre popularity, and temporal trends.
+
+Features
+Top Films by ROI: Identifies the most profitable Ghibli films by return on investment.
+
+Revenue Trends Over Time: Tracks total studio revenue year by year.
+
+Budget vs. Revenue Scatterplot: Visualizes the relationship between film budgets and earnings, color-coded by director.
+
+Miyazaki-Only Revenue Line Graph: Focuses on how Hayao Miyazaki's films have performed financially over time.
+
+Genre Frequency & Performance:
+
+Pie chart of genre frequency across all films
+
+Bar chart of average revenue by primary genre
+
+Ghibli Quiz Game: A simple Python terminal game that asks fun trivia questions based on the data.
+
+Dataset Columns
+Name: Film title
+
+Year: Release year
+
+Director: Film director
+
+Screenplay: Screenwriter
+
+Budget: Production cost (USD)
+
+Revenue: Box office earnings (USD)
+
+Genre 1-3: Up to 3 genre tags per film
+
+Duration: Runtime (e.g., "1h 30m")
+
+🛠 Tools Used
+Python
+
+Pandas
+
+Matplotlib
+
+Jupyter Notebook
+
+Future Applications
+This dataset can be used for:
+
+Data storytelling and visualization practice
+
+Predicting future film performance
+
+Genre trend analysis
+
+Educational or fan-based quiz tools
+
+How to Run
+Open the notebook in Jupyter or Google Colab.
+
+Run cells from top to bottom.
+
+For the quiz, call ghibli_quiz(df) in a code cell and answer the questions interactively.
